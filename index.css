@@ -1,0 +1,262 @@
+/* Обнуление */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+/* --------------------------- */
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.content-houm {
+  height: 100vh;
+  background: url('https://s3-alpha-sig.figma.com/img/d411/9802/38287428eb05daebc5d3ba448c306764?Expires=1693180800&Signature=E7tsm0eIRC0mk1PnxZB4AM6aZerHS2YHI-wM0Pt6u6SMBew92-~rA-KIJe13h1XEyh0sW9eju8PBmQpQ5DCGpolEJjSgVaLmrxc9B6X8w-23VbQ5ObXG-CeX9CsDjlXabI7jIR4CxEfIbkyV7Ky9iv4uRxk7vAzo-7eJPHPY6llkPLpzUeix-VSPL9Rn0cGMMFbF~q4Kveg6k23zKjuSVtJfn9gAdvctULGnqG3YhZTqijdXBq65Fl~YRJ6gQ~01OqT5jDMbOUMLekwST217Ox8JQqiuiG4-jndwUkWwOfVKhnGyUvs5hq9QTjnXNa~vzTsq-v8tphfS3XeU0oES6Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')
+    center center;
+  position: relative;
+}
+
+.navigation {
+  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 24px 32px;
+}
+
+.navigation__items {
+  display: flex;
+}
+
+.navigation__items--link {
+  display: flex;
+}
+
+.navigation__images img {
+  width: 99.706px;
+  height: 45px;
+}
+
+.navigation__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.navigation__button:hover {
+  cursor: pointer;
+  text-shadow: 0 0 4px #d22020;
+}
+
+.navigation__button--application {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation__button--application button {
+  border-radius: 50px;
+  padding: 10px 20px;
+  background: var(--accent, #d22020);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.content-houm__button {
+  display: inline-flex;
+  padding: 13.5px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 48px;
+}
+
+.content-houm__button img {
+  width: 21px;
+  height: 21px;
+}
+
+.social__button--whatsapp {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  right: 195px;
+}
+
+.social__button--telegram {
+  display: inline-flex;
+  align-items: center;
+  position: absolute;
+  bottom: 32px;
+  right: 32px;
+}
+
+.social__button--whatsapp img,
+.social__button--telegram img {
+  width: 24px;
+  height: 24px;
+}
+
+.social__button--whatsapp p,
+.social__button--telegram p {
+  margin-left: 8px;
+  color: var(--bw-black-3, #343a40);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.36px;
+}
+
+.portfolio {
+  margin: 57px 32px 79px 32px;
+}
+
+.portfolio__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.portfolio__heder {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.portfolio__button {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__button p {
+  padding: 8px 8px 8px 0;
+  color: var(--primary-primary, #d22020);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.portfolio__button img {
+  width: 16px;
+  height: 16px;
+}
+
+.portfolio__cards {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.portfolio__img {
+  /* display: flex; */
+  width: 675.586px;
+  height: 513px;
+  /* padding: 473px 442.586px 16px 16px; */
+  /* align-items: center; */
+  /* flex-shrink: 0; */
+}
+
+.portfolio__img--1 {
+  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%), #eee;
+  border-radius: 8px;
+}
+
+.portfolio__img--2 {
+  border-radius: 8px;
+  background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%),
+    #eee;
+}
