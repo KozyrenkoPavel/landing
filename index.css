@@ -76,13 +76,12 @@ h6 {
 
 .container {
   width: 100%;
-  height: 100vh;
 }
 
 .content-houm {
   height: 100vh;
-  background: url('https://s3-alpha-sig.figma.com/img/d411/9802/38287428eb05daebc5d3ba448c306764?Expires=1693180800&Signature=E7tsm0eIRC0mk1PnxZB4AM6aZerHS2YHI-wM0Pt6u6SMBew92-~rA-KIJe13h1XEyh0sW9eju8PBmQpQ5DCGpolEJjSgVaLmrxc9B6X8w-23VbQ5ObXG-CeX9CsDjlXabI7jIR4CxEfIbkyV7Ky9iv4uRxk7vAzo-7eJPHPY6llkPLpzUeix-VSPL9Rn0cGMMFbF~q4Kveg6k23zKjuSVtJfn9gAdvctULGnqG3YhZTqijdXBq65Fl~YRJ6gQ~01OqT5jDMbOUMLekwST217Ox8JQqiuiG4-jndwUkWwOfVKhnGyUvs5hq9QTjnXNa~vzTsq-v8tphfS3XeU0oES6Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')
-    center center;
+  background: url('./images/4576.jpg') center center no-repeat;
+  background-size: 80%;
   position: relative;
 }
 
@@ -164,6 +163,7 @@ h6 {
   position: absolute;
   bottom: 32px;
   right: 195px;
+  cursor: pointer;
 }
 
 .social__button--telegram {
@@ -172,6 +172,7 @@ h6 {
   position: absolute;
   bottom: 32px;
   right: 32px;
+  cursor: pointer;
 }
 
 .social__button--whatsapp img,
@@ -214,6 +215,7 @@ h6 {
 .portfolio__button {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .portfolio__button p {
@@ -235,28 +237,66 @@ h6 {
 }
 
 .portfolio__cards {
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: space-between;
-  /* align-items: center; */
+  display: grid;
+  grid-template: repeat(3, 585px) / repeat(2, 912px);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 58px 24.83px;
+}
+
+.portfolio__card {
+  cursor: pointer;
+  width: 675.586px;
+  height: 585px;
 }
 
 .portfolio__img {
-  /* display: flex; */
   width: 675.586px;
   height: 513px;
-  /* padding: 473px 442.586px 16px 16px; */
-  /* align-items: center; */
-  /* flex-shrink: 0; */
+  border-radius: 8px;
 }
 
 .portfolio__img--1 {
   background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%), #eee;
-  border-radius: 8px;
 }
 
 .portfolio__img--2 {
-  border-radius: 8px;
   background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%),
     #eee;
+}
+
+.portfolio__img--3 {
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%), #eee;
+}
+
+.portfolio__img--4 {
+  background: linear-gradient(90deg, #d4fc79 0%, #96e6a1 100%), #eee;
+}
+
+.portfolio__img--5 {
+  background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%), #eee;
+}
+
+.portfolio__img--6 {
+  background: linear-gradient(90deg, #fff1eb 0%, #ace0f9 100%), #eee;
+}
+
+.portfolio__text--item_1 {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.72px;
+}
+
+.portfolio__text--item_2 {
+  color: var(--bw-gray-1, #6c757d);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
