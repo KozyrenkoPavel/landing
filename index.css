@@ -261,7 +261,6 @@ h6 {
   cursor: pointer;
   width: 675.586px;
   height: 585px;
-  /* margin-bottom: 58px; */
 }
 
 .portfolio__img {
@@ -333,4 +332,125 @@ h6 {
   line-height: 30px;
   letter-spacing: 0.36px;
   text-transform: uppercase;
+}
+
+.about {
+  margin: 34px;
+}
+
+.about__title {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  margin-bottom: 58px;
+}
+
+.about__points {
+  width: 1198px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 58px;
+}
+
+.about__paragraph {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+#about__color {
+  color: var(--primary-primary, #d22020);
+}
+
+.about__paragraph:hover {
+  cursor: pointer;
+  text-shadow: 0 0 4px #d22020;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__text {
+  width: 676px;
+  color: var(--bw-black-2, #495057);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 64px;
+}
+
+.about__images img {
+  width: 676px;
+  height: 513px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.about__images p {
+  color: var(--bw-gray-2, #8d959d);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: center;
+}
+
+.about__statistics {
+  width: 473px;
+  height: 141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 37px;
+}
+
+.about__statistics--itme {
+  color: var(--bw-black-2, #495057);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+#color__item {
+  color: var(--primary-primary, #d22020);
+  font-weight: 600;
+}
+
+.about__button {
+  display: flex;
+  width: 248px;
+  height: 72px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 56px;
+  border: 1px solid #d22020;
+  color: #d22020;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.about__button:hover {
+  cursor: pointer;
+  text-shadow: 0 0 4px #d22020;
 }
