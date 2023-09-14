@@ -118,7 +118,7 @@ h6 {
   line-height: 150%;
 }
 
-.navigation__button:hover {
+#shadow:hover {
   cursor: pointer;
   text-shadow: 0 0 4px #d22020;
 }
@@ -154,6 +154,11 @@ h6 {
 .content-houm__button img {
   width: 21px;
   height: 21px;
+  cursor: pointer;
+}
+
+.content-houm__button img:hover {
+  box-shadow: 0 0 4px #d22020;
 }
 
 .social__button--whatsapp {
@@ -162,6 +167,7 @@ h6 {
   position: absolute;
   bottom: 32px;
   right: 195px;
+  cursor: pointer;
 }
 
 .social__button--telegram {
@@ -170,6 +176,7 @@ h6 {
   position: absolute;
   bottom: 32px;
   right: 32px;
+  cursor: pointer;
 }
 
 .social__button--whatsapp img,
@@ -194,4 +201,136 @@ h6 {
 .content-houm__button:hover {
   cursor: pointer;
   text-shadow: 0 0 4px #d22020;
+}
+
+.portfolio {
+  margin: 57px 32px 79px 32px;
+}
+
+.portfolio__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 42px;
+}
+
+.portfolio__heder {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.portfolio__button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.portfolio__button p {
+  padding: 8px 8px 8px 0;
+  color: var(--primary-primary, #d22020);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+
+.portfolio__button img {
+  width: 16px;
+  height: 16px;
+}
+
+.portfolio__cards {
+  display: grid;
+  grid-template: repeat(3, 585px) / repeat(2, 912px);
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  gap: 58px 24.83px;
+  margin-bottom: 74px;
+}
+
+.portfolio__card {
+  cursor: pointer;
+  width: 675.586px;
+  height: 585px;
+  /* margin-bottom: 58px; */
+}
+
+.portfolio__img {
+  width: 675.586px;
+  height: 513px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.portfolio__img--1 {
+  background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%), #eee;
+}
+
+.portfolio__img--2 {
+  background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%),
+    #eee;
+}
+
+.portfolio__img--3 {
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%), #eee;
+}
+
+.portfolio__img--4 {
+  background: linear-gradient(90deg, #d4fc79 0%, #96e6a1 100%), #eee;
+}
+
+.portfolio__img--5 {
+  background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%), #eee;
+}
+
+.portfolio__img--6 {
+  background: linear-gradient(90deg, #fff1eb 0%, #ace0f9 100%), #eee;
+}
+
+.portfolio__text--item_1 {
+  color: var(--bw-black, #212529);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -0.72px;
+}
+
+.portfolio__text--item_2 {
+  color: var(--bw-gray-1, #6c757d);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.portfolio__button-all {
+  display: flex;
+  width: 248px;
+  height: 72px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 56px;
+  border: 1px solid var(--primary-primary, #d22020);
+  color: var(--primary-primary, #d22020);
+  margin: 0 auto;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
 }
