@@ -131,6 +131,10 @@ body {
   line-height: 150%;
 }
 
+a {
+  color: inherit;
+}
+
 #shadow:hover {
   cursor: pointer;
   text-shadow: 0 0 4px #d22020;
@@ -545,11 +549,6 @@ body {
 .application__link:hover {
   cursor: pointer;
   text-shadow: 0 0 4px #d22020;
-}
-
-.application__form {
-  /* margin-right: 381px; */
-  /* margin-left: 177px; */
 }
 
 .application__item {
