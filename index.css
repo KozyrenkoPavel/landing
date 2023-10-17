@@ -85,10 +85,16 @@ body {
   flex-direction: column;
 }
 
+.container__main {
+  width: 1440px;
+  margin: auto;
+  flex: 1 1 auto;
+}
+
 .content-houm {
   height: 100vh;
-  background: url('https://s3-alpha-sig.figma.com/img/d411/9802/38287428eb05daebc5d3ba448c306764?Expires=1694995200&Signature=cdQJbNUPwCyIbIReioCqA5yf20ON-eVfMz21J2VDbu81GGC6XxRQTveUGGWktOxFsyAQgzSQ-oU8pMdZjnn7MjzjmhOU9vmRbnQGkqRUyqawtfdC3606JFYUIWPBsEUZM3MrgfAzK5LOjiGPqzbJORuPSCfbiG6k8AP4xEj8hU3DGJmS5bDJafOPCylZA6g4JxTqr4nX40Fj1qTMaLyZlOEEEbNj90yFewx86Z61qcUfswyy1oDHdx8EHIsbY-ikTMtWcy-NEC3JCatPqrCZ9sktijU3f66uYUXHznhY8EivcXiYSb87cG3sKR2MkX2dJF-IlKMh3wlpVSKCXQxWpA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')
-    center center;
+  background: url('images/4576.jpg') center center no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -211,7 +217,7 @@ body {
 }
 
 .portfolio {
-  margin: 57px 32px 79px 32px;
+  margin: 57px 34px 79px 34px;
 }
 
 .portfolio__title {
@@ -256,7 +262,7 @@ body {
 
 .portfolio__cards {
   display: grid;
-  grid-template: repeat(3, 585px) / repeat(2, 912px);
+  grid-template: repeat(3, 585px) / repeat(2, 674px);
   justify-items: center;
   align-items: center;
   justify-content: center;
@@ -266,12 +272,12 @@ body {
 
 .portfolio__card {
   cursor: pointer;
-  width: 675.586px;
+  width: 674px;
   height: 585px;
 }
 
 .portfolio__img {
-  width: 675.586px;
+  width: 674px;
   height: 513px;
   border-radius: 8px;
   margin-bottom: 12px;
@@ -542,8 +548,8 @@ body {
 }
 
 .application__form {
-  margin-right: 381px;
-  margin-left: 177px;
+  /* margin-right: 381px; */
+  /* margin-left: 177px; */
 }
 
 .application__item {
@@ -635,7 +641,7 @@ body {
   line-height: 24px;
 }
 
-.footer__images img{
+.footer__images img {
   width: 106px;
   height: 48px;
 }
