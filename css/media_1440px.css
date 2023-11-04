@@ -1,0 +1,15 @@
+@media (max-width: 1440px) {
+  .container__main {
+    max-width: 970px;
+  }
+
+  .about__images img {
+    width: 400px;
+    height: 255px;
+  }
+
+  .portfolio__card .portfolio__img {
+    width: 473px;
+    height: 381px;
+  }
+}
