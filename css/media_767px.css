@@ -63,9 +63,8 @@
   }
 
   .portfolio {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
   }
-
   .portfolio__title {
     margin-bottom: 14px;
   }
@@ -97,7 +96,7 @@
     cursor: pointer;
     max-width: 310px;
     max-height: 280px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
   }
 
   .portfolio__card .portfolio__img {
@@ -123,7 +122,7 @@
   }
 
   .about {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
   }
 
   .about__title {
@@ -189,7 +188,7 @@
   }
 
   .application {
-    padding: 0;
+    padding: 0px 20px 0px 20px;
   }
 
   .application__title {
@@ -265,6 +264,10 @@
     font-size: 12px;
   }
 
+  .footer__group {
+    padding: 0px 20px 0px 20px;
+  }
+
   .footer__text {
     font-size: 7px;
   }
@@ -276,6 +279,10 @@
 
   .footer__title {
     margin: 0;
+  }
+
+  .navigation__adaptive--items {
+    max-width: 80px;
   }
 
   .navigation__adaptive--images img {

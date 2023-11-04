@@ -132,6 +132,11 @@ a {
   padding: 24px 32px;
 }
 
+.navigation__adaptive--items {
+  max-width: 150px;
+  margin: 0 auto;
+}
+
 .navigation__button--adaptive {
   display: flex;
   justify-content: center;
